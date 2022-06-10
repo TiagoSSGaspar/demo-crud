@@ -132,7 +132,7 @@ form.sign-in-form {
   border-color: #4481eb;
 }
 
-.btn {
+/* .btn {
   width: 150px;
   background-color: #5995fd;
   border: none;
@@ -145,11 +145,11 @@ form.sign-in-form {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
   background-color: #4d84e2;
-}
+} */
 .panels-container {
   position: absolute;
   height: 100%;
@@ -216,7 +216,7 @@ form.sign-in-form {
   padding: 0.7rem 0;
 }
 
-.btn.transparent {
+/* .btn.transparent {
   margin: 0;
   background: none;
   border: 2px solid #fff;
@@ -224,7 +224,7 @@ form.sign-in-form {
   height: 41px;
   font-weight: 600;
   font-size: 0.8rem;
-}
+} */
 
 .right-panel .image,
 .right-panel .content {
@@ -329,11 +329,11 @@ form.sign-in-form {
     padding: 0.5rem 0;
   }
 
-  .btn.transparent {
+/*   .btn.transparent {
     width: 110px;
     height: 35px;
     font-size: 0.7rem;
-  }
+  } */
 
   .container-main:before {
     width: 1500px;
