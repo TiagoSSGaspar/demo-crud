@@ -1,8 +1,8 @@
-import { loadLocalStorage, saveLocalStorage, saveSessionStorage } from "../../utils/utilsLocalStorage.js";
-import { ICreateUserDTO } from "./ICreateUserDTO.js";
-import { IUsersRepository } from "./IUsersRepository.js";
+import { loadLocalStorage, saveLocalStorage, saveSessionStorage } from "../../../../utils/utilsLocalStorage";
+import { ICreateUserDTO } from "../../dtos/ICreateUserDTO";
+import { IUsersRepository } from "../../interfaces/IUsersRepository";
 
-import { User } from "./User.js";
+import { User } from "../entities/User";
 
 export class UsersRepository implements IUsersRepository {
 

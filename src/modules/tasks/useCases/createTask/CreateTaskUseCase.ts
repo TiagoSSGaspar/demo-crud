@@ -1,5 +1,5 @@
-import { ITasksRepository } from "./ITasksRepository.js";
-import { Task } from "./Task.js";
+import { ITasksRepository } from "./ITasksRepository";
+import { Task } from "./Task";
 
 
 interface IRequest {

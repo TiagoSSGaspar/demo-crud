@@ -1,5 +1,5 @@
-import { User } from "./User.js";
-import { IUsersRepository } from "./IUsersRepository.js";
+import { User } from "./User";
+import { IUsersRepository } from "./IUsersRepository";
 
 interface IRequest {
   username: string;

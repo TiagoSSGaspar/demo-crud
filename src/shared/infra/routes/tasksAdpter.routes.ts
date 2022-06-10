@@ -1,12 +1,12 @@
-import { loadSessionStorage } from "../../utils/utilsLocalStorage.js"
-import { ICreateTaskDTO } from "./ICreateTaskDTO.js";
-import { listTaskController } from "./containerListTask.js";
-import { createTaskController } from "./containerCreateTask.js";
+import { loadSessionStorage } from "../../../utils/utilsLocalStorage"
+import { ICreateTaskDTO } from "../../../modules/tasks/dtos/ICreateTaskDTO";
+import { listTaskController } from "../../../modules/tasks/useCases/listTask/index";
+import { createTaskController } from "../../../modules/tasks/useCases/createTask/index";
 
-import { welcome } from "../../utils/welcome.js";
-import { alert } from "../../utils/alert.js"
-import { dialog } from "../../utils/dialog.js";
-import { TasksRepository } from "./TasksRepository.js";
+import { welcome } from "../../../utils/welcome";
+import { alert } from "../../../utils/alert"
+//import { dialog } from "../../utils/dialog";
+import { TasksRepository } from "../../../modules/tasks/infra/repositories/TasksRepository";
 
 async function createTask(): Promise<void> {
   const { id: user_id } = loadSessionStorage();

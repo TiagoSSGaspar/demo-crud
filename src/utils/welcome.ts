@@ -1,4 +1,4 @@
-import { loadSessionStorage } from "./utilsLocalStorage.js";
+import { loadSessionStorage } from "./utilsLocalStorage";
 
 export function welcome(): void {
   let title = document.querySelector<Element>("#welcome");

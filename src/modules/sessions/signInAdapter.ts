@@ -1,6 +1,6 @@
-import { saveSessionStorage } from "../../utils/utilsLocalStorage.js";
-import { UsersRepository } from "../user/UsersRepository.js";
-import { alert } from "../../utils/alert.js"
+import { saveSessionStorage } from "../../utils/utilsLocalStorage";
+import { UsersRepository } from "../users/infra/repositories/UsersRepository";
+import { alert } from "../../utils/alert"
 
 document.querySelector(".sign-in-form").addEventListener("submit", event => {
   event.preventDefault()

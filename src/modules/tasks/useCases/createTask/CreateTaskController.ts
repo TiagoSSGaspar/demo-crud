@@ -1,6 +1,6 @@
-import { CreateTaskUseCase } from "./CreateTaskUseCase.js";
-import { ICreateTaskDTO } from "./ICreateTaskDTO.js";
-import { Task } from "./Task.js";
+import { CreateTaskUseCase } from "./CreateTaskUseCase";
+import { ICreateTaskDTO } from "./ICreateTaskDTO";
+import { Task } from "./Task";
 
 
 export class CreateTaskController {

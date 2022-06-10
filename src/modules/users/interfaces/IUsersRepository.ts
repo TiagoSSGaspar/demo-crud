@@ -1,5 +1,5 @@
-import { ICreateUserDTO } from "./ICreateUserDTO.js";
-import { User } from "./User.js";
+import { ICreateUserDTO } from "../dtos/ICreateUserDTO";
+import { User } from "../infra/entities/User";
 
 
 export interface IUsersRepository {

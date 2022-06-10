@@ -1,5 +1,5 @@
-import { ListTaskUseCase } from "./ListTaskUseCase.js";
-import { Task } from "./Task.js";
+import { ListTaskUseCase } from "./ListTaskUseCase";
+import { Task } from "./Task";
 
 interface IRequest {
   user_id: string;

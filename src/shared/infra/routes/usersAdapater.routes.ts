@@ -1,15 +1,10 @@
-import { createUserController } from "./containerCreateUser.js";
+import { createUserController } from "../../../modules/users/useCases/createUser/index";
 
 interface IRequest {
   username: string;
   email: string;
   password: string;
 }
-
-document.querySelector(".sign-up-form").addEventListener("submit", (event: Event) => {
-  event.preventDefault()
-  createUser()
-})
 
 function formattedUser(): IRequest {
   const userForm = document.querySelectorAll(".sign-up-form input") as NodeListOf<HTMLInputElement>;
@@ -38,7 +33,11 @@ async function createUser(): Promise<void> {
   } catch (error) {
     console.log(error)
   }
-   
 
 }
+
+document.querySelector(".sign-up-form").addEventListener("submit", (event: Event) => {
+  event.preventDefault()
+  createUser()
+})
 

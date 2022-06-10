@@ -1,5 +1,5 @@
-import { CreateUserUseCase } from "./CreateUserUseCase.js";
-import { User } from "./User.js";
+import { CreateUserUseCase } from "./CreateUserUseCase";
+import { User } from "./User";
 
 export class CreateUserController {
 

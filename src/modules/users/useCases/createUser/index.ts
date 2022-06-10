@@ -1,6 +1,6 @@
-import { CreateUserController } from "./CreateUserController.js";
-import { CreateUserUseCase } from "./CreateUserUseCase.js";
-import { UsersRepository } from "./UsersRepository.js";
+import { CreateUserController } from "./CreateUserController";
+import { CreateUserUseCase } from "./CreateUserUseCase";
+import { UsersRepository } from "../../infra/repositories/UsersRepository";
 
 const usersRepository = UsersRepository.getInstance();
 const createUserUseCase = new CreateUserUseCase(usersRepository);

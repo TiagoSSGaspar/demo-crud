@@ -1,5 +1,5 @@
-import { Task } from "./Task.js";
-import { ICreateTaskDTO } from "./ICreateTaskDTO.js";
+import { Task } from "../infra/entities/Task";
+import { ICreateTaskDTO } from "../dtos/ICreateTaskDTO";
 
 interface ITasksRepository {
   create(data: ICreateTaskDTO): Promise<Task>;

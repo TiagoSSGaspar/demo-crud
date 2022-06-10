@@ -1,6 +1,6 @@
-import { CreateTaskController } from "./CreateTaskController.js";
-import { CreateTaskUseCase } from "./CreateTaskUseCase.js";
-import { TasksRepository } from "./TasksRepository.js";
+import { CreateTaskController } from "./CreateTaskController";
+import { CreateTaskUseCase } from "./CreateTaskUseCase";
+import { TasksRepository } from "../../infra/repositories/TasksRepository";
 
 
 const tasksRepository = TasksRepository.getInstance();

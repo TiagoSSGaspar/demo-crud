@@ -1,7 +1,7 @@
-import { deleteItem, loadLocalStorage, saveLocalStorage } from "../../utils/utilsLocalStorage.js";
-import { ICreateTaskDTO } from "./ICreateTaskDTO.js";
-import { ITasksRepository } from "./ITasksRepository.js";
-import { Task } from "./Task.js"
+import { deleteItem, loadLocalStorage, saveLocalStorage } from "../../../../utils/utilsLocalStorage";
+import { ICreateTaskDTO } from "../../dtos/ICreateTaskDTO";
+import { ITasksRepository } from "../../interfaces/ITasksRepository";
+import { Task } from "../entities/Task"
 
 class TasksRepository implements ITasksRepository {
   private tasks: Task[];
